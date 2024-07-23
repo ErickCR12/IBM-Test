@@ -1,1 +1,1 @@
-# IBM Test
+Extension created for IBM technical interview. This extension will attempt to connect to IBM cloud using IAmTokenManager.
