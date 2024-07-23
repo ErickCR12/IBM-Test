@@ -1,0 +1,210 @@
+HTTP 24692: call onSocket 0 0
+
+HTTP 24692: createConnection iam.cloud.ibm.com:443::::::::::::::::::::: [Object: null prototype] {
+  maxRedirects: 21,
+  maxBodyLength: Infinity,
+  protocol: 'https:',
+  path: null,
+  method: 'POST',
+  headers: [Object: null prototype] {
+    Accept: 'application/json, text/plain, */*',
+    'Content-Type': 'application/x-www-form-urlencoded',
+    'User-Agent': 'ibm-node-sdk-core/iam-authenticator-5.0.0 os.name=win32 os.version=10.0.22631 node.version=v20.9.0',
+    'Accept-Encoding': 'gzip',
+    'Content-Length': '105'
+  },
+  agents: { http: undefined, https: undefined },
+  auth: undefined,
+  family: undefined,
+  beforeRedirect: [Function: dispatchBeforeRedirect],
+  beforeRedirects: { proxy: [Function: beforeRedirect] },
+  hostname: 'iam.cloud.ibm.com',
+  port: 443,
+  agent: _PacProxyAgent {
+    _events: [Object: null prototype] {
+      free: [Function (anonymous)],
+      newListener: [Function: maybeEnableKeylog]
+    },
+    _eventsCount: 2,
+    _maxListeners: undefined,
+    options: [Object: null prototype] {
+      originalAgent: undefined,
+      lookupProxyAuthorization: [Function: bound m] AsyncFunction,
+      noDelay: true,
+      path: null
+    },
+    requests: [Object: null prototype] {},
+    sockets: [Object: null prototype] { 'iam.cloud.ibm.com:443:': [] },
+    freeSockets: [Object: null prototype] {},
+    keepAliveMsecs: 1000,
+    keepAlive: false,
+    maxSockets: Infinity,
+    maxFreeSockets: 256,
+    scheduling: 'lifo',
+    maxTotalSockets: Infinity,
+    totalSocketCount: 0,
+    resolver: [Function: resolveP],
+    opts: {
+      originalAgent: undefined,
+      lookupProxyAuthorization: [Function: bound m] AsyncFunction
+    },
+    cache: undefined,
+    [Symbol(kCapture)]: false,
+    [Symbol(AgentBaseInternalState)]: {}
+  },
+  nativeProtocols: {
+    'http:': {
+      _connectionListener: [Function: connectionListener],
+      METHODS: [Array],
+      STATUS_CODES: [Object],
+      Agent: [Function],
+      ClientRequest: [Function: ClientRequest],
+      IncomingMessage: [Function: IncomingMessage],
+      OutgoingMessage: [Function: OutgoingMessage],
+      Server: [Function: Server],
+      ServerResponse: [Function: ServerResponse],
+      createServer: [Function: createServer],
+      validateHeaderName: [Function: __node_internal_],
+      validateHeaderValue: [Function: __node_internal_],
+      get: [Function: patched],
+      request: [Function: patched],
+      setMaxIdleHTTPParsers: [Function: setMaxIdleHTTPParsers],
+      maxHeaderSize: 16384,
+      globalAgent: [Agent]
+    },
+    'https:': {
+      Agent: [Function: Agent],
+      globalAgent: [Agent],
+      Server: [Function: Server],
+      createServer: [Function: createServer],
+      get: [Function: patched],
+      request: [Function: patched]
+    }
+  },
+  pathname: '/identity/token',
+  _defaultAgent: Agent {
+    _events: [Object: null prototype] {
+      free: [Function (anonymous)],
+      newListener: [Function: maybeEnableKeylog]
+    },
+    _eventsCount: 2,
+    _maxListeners: undefined,
+    defaultPort: 443,
+    protocol: 'https:',
+    options: [Object: null prototype] {
+      keepAlive: true,
+      scheduling: 'lifo',
+      timeout: 5000,
+      noDelay: true,
+      path: null
+    },
+    requests: [Object: null prototype] {},
+    sockets: [Object: null prototype] {
+      'iam.cloud.ibm.com:443:::::::::::::::::::::': []
+    },
+    freeSockets: [Object: null prototype] {},
+    keepAliveMsecs: 1000,
+    keepAlive: true,
+    maxSockets: Infinity,
+    maxFreeSockets: 256,
+    scheduling: 'lifo',
+    maxTotalSockets: Infinity,
+    totalSocketCount: 0,
+    maxCachedSessions: 100,
+    _sessionCache: { map: [Object], list: [Array] },
+    [Symbol(kCapture)]: false
+  },
+  host: 'iam.cloud.ibm.com',
+  originalAgent: undefined,
+  lookupProxyAuthorization: [Function: bound m] AsyncFunction,
+  noDelay: true,
+  servername: 'iam.cloud.ibm.com',
+  secureEndpoint: true,
+  _vscodeAdditionalCaCerts: [
+    '-----BEGIN CERTIFICATE-----\r\n' +
+      'MIIC7DCCAdSgAwIBAgIQVXGNVKIYI4BHN+h/znx0gTANBgkqhkiG9w0BAQsFADAU\r\n' +
+      'MRIwEAYDVQQDEwlsb2NhbGhvc3QwHhcNMjEwMzMxMDQxNjQ0WhcNMjYwMzMwMDAw\r\n' +
+      'MDAwWjAUMRIwEAYDVQQDEwlsb2NhbGhvc3QwggEiMA0GCSqGSIb3DQEBAQUAA4IB\r\n' +
+      'DwAwggEKAoIBAQDmXir65F32tw9HAlfQk3XvriV9IRMFeLNFBA4vZJmxrZbDWCN3\r\n' +
+      'xtv/dd3Ztt5pF3HC0fGo0g89pTwJDZXR7yBiMwPpHS5bJ3kMniq50USOovJPDqlq\r\n' +
+      'L9ZjhgcE/lcRWRNXOKQrLgsvNS/XGLIK6MG94SEPvgIB9wL8tw1lyGlkLWkxTHGm\r\n' +
+      'zBcCNo0jvzCzqd+Qqiid93KXFGXlzaY7tlFUmOzdPb27HojIb1oBIBR3KGx0dADS\r\n' +
+      'NHmJEEW56eGtyZPADem4o+SjhSkb9lVJxRiar5T3NRnMHiTcidEdJrDGoztZ1tI/\r\n' +
+      '+zZiWmzlSirQTn3SJ4RFEcq9HBHiQikGbbpFAgMBAAGjOjA4MAsGA1UdDwQEAwIE\r\n' +
+      'sDATBgNVHSUEDDAKBggrBgEFBQcDATAUBgNVHREEDTALgglsb2NhbGhvc3QwDQYJ\r\n' +
+      'KoZIhvcNAQELBQADggEBALh/eT9zLQQx+y8sGRcKNFG0JcZIPLRrJwK7i7D5M59g\r\n' +
+      'xyBsWCGFNYCbpwCOWtSwn4NoSmjUbH/75zhXaOorMkX1ZDX9+2IR4HyW03Ub2lzV\r\n' +
+      '3itb7VIEOtsAd1qNcPP6MF9W4fjnsJwoO3kfRhy+PFwvtH+S6vnmIYUKr5Z8okhZ\r\n' +
+      'cNdlnmeLu6S5txvkN…OTk5IFZlcmlTaWdu\r\n' +
+      'LCBJbmMuIC0gRm9yIGF1dGhvcml6ZWQgdXNlIG9ubHkxRTBDBgNVBAMTPFZlcmlT\r\n' +
+      'aWduIENsYXNzIDMgUHVibGljIFByaW1hcnkgQ2VydGlmaWNhdGlvbiBBdXRob3Jp\r\n' +
+      'dHkgLSBHMzAeFw05OTEwMDEwMDAwMDBaFw0zNjA3MTYyMzU5NTlaMIHKMQswCQYD\r\n' +
+      'VQQGEwJVUzEXMBUGA1UEChMOVmVyaVNpZ24sIEluYy4xHzAdBgNVBAsTFlZlcmlT\r\n' +
+      'aWduIFRydXN0IE5ldHdvcmsxOjA4BgNVBAsTMShjKSAxOTk5IFZlcmlTaWduLCBJ\r\n' +
+      'bmMuIC0gRm9yIGF1dGhvcml6ZWQgdXNlIG9ubHkxRTBDBgNVBAMTPFZlcmlTaWdu\r\n' +
+      'IENsYXNzIDMgUHVibGljIFByaW1hcnkgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkg\r\n' +
+      'LSBHMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMu6nFL8eB8aHm8b\r\n' +
+      'N3O9+MlrlBIwT/A2R/XQkQr1F8ilYcEWQE37imGQ5XYgwREGfassbqb1EUGO+i2t\r\n' +
+      'KmFZpGcmTNDovFJbcCAEWNF6yaRpvIMXZK0Fi7zQWM6NjPXr8EJJC52XJ2cybuGu\r\n' +
+      'kxUccLwgTS8Y3pKI6GyFVxEa6X7jJhFUokWWVYPKMIno3Nij7SqAP395ZVc+FSBm\r\n' +
+      'CC+Vk7+qRy+oRpfwEuL+wgorUeZ25rdGt+INpsyow0xZVYnm6FNcHOqd8GIWC6fJ\r\n' +
+      'Xwzw3sJ2zq/3avL6QaaiMxTJ5Xpj055iN9WFZZ4O5lMkdBteHRJTW8cs54NJOxWu\r\n' +
+      'imi5V5cCAwEAATANBgkqhkiG9w0BAQUFAAOCAQEAERSWwauSCPc/L8my/uRan2Te\r\n' +
+      '2yFPhpk0djZX3dAVL8WtfxUfN2JzPtTnX84XA9s1+ivbrmAJXx5fj267Cz3qWhMe\r\n' +
+      'DGBvtcC1IyIuBwvLqXTLR7sdwdela8wv0kL9Sd2nic9TutoAWii/gt/4uhMdUIaC\r\n' +
+      '/Y4wjylGsB49Ndo4YhYYSq3mtlFs3q9i6wHQHiT+eo8SGhJouPtmmRQURVyu565p\r\n' +
+      'F4ErWjfJXir0xuKhXFSbplQAz/DxwceYMBo7Nhbbo27q/a2ywtrvAkcTisDxszGt\r\n' +
+      'TxzhT5yvDwyd93gN2PQ1VoDat20Xj50egWTh/sVFuq1ruQp6Tk9LhO5L8X3dEQ==\r\n' +
+      '-----END CERTIFICATE-----\r\n',
+    '-----BEGIN CERTIFICATE-----\r\n' +
+      'MIIDuzCCAqOgAwIBAgIDBETAMA0GCSqGSIb3DQEBBQUAMH4xCzAJBgNVBAYTAlBM\r\n' +
+      'MSIwIAYDVQQKExlVbml6ZXRvIFRlY2hub2xvZ2llcyBTLkEuMScwJQYDVQQLEx5D\r\n' +
+      'ZXJ0dW0gQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkxIjAgBgNVBAMTGUNlcnR1bSBU\r\n' +
+      'cnVzdGVkIE5ldHdvcmsgQ0EwHhcNMDgxMDIyMTIwNzM3WhcNMjkxMjMxMTIwNzM3\r\n' +
+      'WjB+MQswCQYDVQQGEwJQTDEiMCAGA1UEChMZVW5pemV0byBUZWNobm9sb2dpZXMg\r\n' +
+      'Uy5BLjEnMCUGA1UECxMeQ2VydHVtIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MSIw\r\n' +
+      'IAYDVQQDExlDZXJ0dW0gVHJ1c3RlZCBOZXR3b3JrIENBMIIBIjANBgkqhkiG9w0B\r\n' +
+      'AQEFAAOCAQ8AMIIBCgKCAQEA4/t9o3K6wvDJFIf1awFO4W5AB7ptJ11/91sts1rH\r\n' +
+      'UV+rpDKmYYe2bg+G0jACl/jXaVehGDldamR5xgFZrDwxSjh80gTSSyjoIF87B6LM\r\n' +
+      'TXPb865Px1bVWqeWifrzq2jUI4ZZJ88JJ7ysbnKDHDBy3+Ci6dLhdHUZvSqeexVU\r\n' +
+      'BBvXQzmtVSjF4hq79MDkrjhJM8x2hZ85RdKknvISjFH4fOQtf/WsX+sWn7Et0brM\r\n' +
+      'kUJ3TCXJkDhv2/DM+44el1k+1WBO5gUo7Ul5E0u6SNsv+XLTOcr+H9g0cvW0QM8x\r\n' +
+      'AcPs3hEtF10fuFDRXhmnad4HMyjKUJX5p1TLVIZQRan5SQIDAQABo0IwQDAPBgNV\r\n' +
+      'HRMBAf8EBTADAQH/MB0GA1UdDgQWBBQIds3LB/8k9sXN7buQvOKEN0Z19zAOBgNV\r\n' +
+      'HQ8BAf8EBAMCAQYwDQYJKoZIhvcNAQEFBQADggEBAKaorSLOAT2mo/9i0Eidi15y\r\n' +
+      'sHhE49wcrwn9I0j6vSrEuVUEtRCjjSfeC4Jj0O7eDDd5QVsisrCaQVymcODU0HfL\r\n' +
+      'I9MA4GxWL+FpDQ3Zqr8hgVDZBqWo/5U30Kr+4rP1mS1FhIrlQgnXdAIv94nYmem8\r\n' +
+      'J9RHjboNRhx3zxSkHLmkMcScKHQDNP8zGSal6Q10tz6XxnboJ5ajZt3hrvJBW8qY\r\n' +
+      'VoNzcOSGGtIxQbovvi0TWnZvTuhOgQ4/WwMioBK+ZlgRSssDxLQqKi2WF+A5VLxI\r\n' +
+      '03YnnZotBqbJ7DnSq9ufmgsnAjUpsUCV5/nonFWIGUbWtzT1fs45mtk48VH3Tyw=\r\n' +
+      '-----END CERTIFICATE-----\r\n',
+    '-----BEGIN CERTIFICATE-----\r\n' +
+      'MIIDtzCCAp+gAwIBAgIQDOfg5RfYRv6P5WD8G/AwOTANBgkqhkiG9w0BAQUFADBl\r\n' +
+      'MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\r\n' +
+      'd3cuZGlnaWNlcnQuY29tMSQwIgYDVQQDExtEaWdpQ2VydCBBc3N1cmVkIElEIFJv\r\n' +
+      'b3QgQ0EwHhcNMDYxMTEwMDAwMDAwWhcNMzExMTEwMDAwMDAwWjBlMQswCQYDVQQG\r\n' +
+      'EwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNl\r\n' +
+      'cnQuY29tMSQwIgYDVQQDExtEaWdpQ2VydCBBc3N1cmVkIElEIFJvb3QgQ0EwggEi\r\n' +
+      'MA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCtDhXO5EOAXLGH87dg+XESpa7c\r\n' +
+      'JpSIqvTO9SA5KFhgDPiA2qkVlTJhPLWxKISKityfCgyDF3qPkKyK53lTXDGEKvYP\r\n' +
+      'mDI2dsze3Tyoou9q+yHyUmHfnyDXH+Kx2f4YZNISW1/5WBg1vEfNoTb5a3/UsDg+\r\n' +
+      'wRvDjDPZ2C8Y/igPs6eD1sNuRMBhNZYW/lmci3Zt1/GiSw0r/wty2p5g0I6QNcZ4\r\n' +
+      'VYcgoc/lbQrISXwxmDNsIumH0DJaoroTghHtORedmTpyoeb6pNnVFzF1roV9Iq4/\r\n' +
+      'AUaG9ih5yLHa5FcXxH4cDrC0kqZWs72yl+2qp/C3xag/lRbQ/6GW6whfGHdPAgMB\r\n' +
+      'AAGjYzBhMA4GA1UdDwEB/wQEAwIBhjAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQW\r\n' +
+      'BBRF66Kv9JLLgjEtUYunpyGd823IDzAfBgNVHSMEGDAWgBRF66Kv9JLLgjEtUYun\r\n' +
+      'pyGd823IDzANBgkqhkiG9w0BAQUFAAOCAQEAog683+Lt8ONyc3pklL/3cmbYMuRC\r\n' +
+      'dWKuh+vy1dneVrOfzM4UKLkNl2BcEkxY5NM9g0lFWJc1aRqoR+pWxnmrEthngYTf\r\n' +
+      'fwk8lOa4JiwgvT2zKIn3X/8i4peEH+ll74fg38FnSbNd67IJKusm7Xi+fT8r87cm\r\n' +
+      'NW1fiQG2SVufAQWbqz0lwcy2f8Lxb4bG+mRo64EtlOtCt/qMHt1i8b5QZ7dsvfPx\r\n' +
+      'H2sMNgcWfzd8qVttevESRmCD1ycEvkvOl77DZypoEd+A5wwzZr8TDRRu838fYxAe\r\n' +
+      '+o0bJW1sj6W3YQGx0qMmoRBxna3iw/nDmVG3KwcIzi7mULKn+gpFL6Lw8g==\r\n' +
+      '-----END CERTIFICATE-----\r\n'
+  ],
+  keepAlive: true,
+  scheduling: 'lifo',
+  timeout: 5000,
+  _agentKey: 'iam.cloud.ibm.com:443:::::::::::::::::::::'
+}…
+TLS 24692: client _init handle? true
+HTTP 24692: sockets iam.cloud.ibm.com:443::::::::::::::::::::: 1 1
